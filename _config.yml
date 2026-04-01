@@ -1,9 +1,33 @@
-title: Lexie Gardner
+# Site settings
+title: "Lexie Gardner"
+description: ""
+baseurl: "" # leave empty unless your site is in a subfolder
+url: "https://lexiegardner.github.io" # replace USERNAME with your GitHub username
 email: lexie.gardner@berkeley.edu
-description: "Graduate student website"
-baseurl: "" # leave empty for user pages
-url: "https://lexiegardner.github.io"
-theme: minimal-mistakes-jekyll
-plugins: 
-- jekyll-remote-theme
+repository: "https://github.com/lexiegardner/lexiegardner.github.io" # replace REPO with your repo name
+
+# Theme
+plugins:
+  - jekyll-remote-theme
+
 remote_theme: mmistakes/minimal-mistakes@4.26.0
+
+# Navigation 
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+
+# Minimal Mistakes settings
+header_pages:
+  - index.md
+footer:
+  links:
+    - title: "GitHub"
+      url: "https://github.com/lexiegardner/lexiegardner.github.io"
+
+# Markdown and kramdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
