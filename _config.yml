@@ -1,0 +1,6 @@
+title: Lexie Gardner
+email: your-email@example.com
+description: "Graduate student website"
+baseurl: "" # leave empty for user pages
+url: "https://lexiegardner.github.io"
+theme: minima # or any Jekyll theme you chose
