@@ -1,6 +1,35 @@
+title: "Lexie Gardner"
+description: ""
+baseurl: ""                     # leave empty unless your site is in a subfolder
+url: "https://lexiegardner.github.io" # your GitHub Pages URL
+email: lexie.gardner@berkeley.edu
+repository: "https://github.com/lexiegardner/lexiegardner.github.io"
+
 remote_theme: "mmistakes/minimal-mistakes@4.26.0" # latest works now
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "/publications/" 
+  - title: "CV" 
+    url: "/CV/"
+
+header_pages:
+  - index.md
+
+footer:
+  links:
+    - title: "GitHub"
+      url: "https://github.com/lexiegardner/lexiegardner.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
