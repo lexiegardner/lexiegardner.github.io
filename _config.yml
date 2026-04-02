@@ -33,11 +33,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-
-masthead_nav: main
-
-header_pages:
-  - index.md
+  - jekyll-include-cache
 
 footer:
   links:
