@@ -3,9 +3,7 @@ description: ""
 baseurl: ""                     # leave empty unless your site is in a subfolder
 url: "https://lexiegardner.github.io" # your GitHub Pages URL
 email: lexie.gardner@berkeley.edu
-github:
-  user: lexiegardner
-  repo: lexiegardner.github.io
+repository: lexiegardner/lexiegardner.github.io  # Your GitHub repository
 
 remote_theme: "mmistakes/minimal-mistakes@4.1.0" # latest works now
 plugins:
