@@ -29,6 +29,7 @@ author:
       url: "https://www.linkedin.com/in/lexie-gardner-376527212"
       
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
