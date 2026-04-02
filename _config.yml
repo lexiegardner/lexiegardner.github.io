@@ -6,6 +6,28 @@ email: lexie.gardner@berkeley.edu
 repository: lexiegardner/lexiegardner.github.io  # Your GitHub repository
 
 remote_theme: "mmistakes/minimal-mistakes@4.1.0" # latest works now
+minimal_mistakes_skin: "default"
+
+author:
+  name: "Lexie Gardner"
+  avatar: "/assets/images/bio-photo.jpg"  # upload your photo here
+  bio: "PhD Student"
+  location: "University of California, Berkeley"
+  email: "lexie.gardner@berkeley.edu"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lexie.gardner@berkeley.edu"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=1bUVIDIAAAAJ&hl=en"  # add your Scholar URL
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lexiegardner"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/lexie-gardner-376527212"  # add your LinkedIn URL
+      
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
@@ -25,3 +47,11 @@ footer:
 markdown: kramdown
 kramdown:
   input: GFM
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true  # this enables the left sidebar everywhere
