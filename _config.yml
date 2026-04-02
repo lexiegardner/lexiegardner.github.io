@@ -20,13 +20,13 @@ author:
       url: "mailto:lexie.gardner@berkeley.edu"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=1bUVIDIAAAAJ&hl=en"  # add your Scholar URL
+      url: "https://scholar.google.com/citations?user=1bUVIDIAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lexiegardner"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/lexie-gardner-376527212"  # add your LinkedIn URL
+      url: "https://www.linkedin.com/in/lexie-gardner-376527212"
       
 plugins:
   - jekyll-paginate
