@@ -11,7 +11,10 @@ minimal_mistakes_skin: "default"
 author:
   name: "Lexie Gardner"
   avatar: "/assets/images/bio-photo.JPG"  
-  bio: "PhD Student<br>University of California, Berkeley<br>lexie.gardner@berkeley.edu"
+  bio: |
+    PhD Student
+    University of California, Berkeley
+    lexie.gardner@berkeley.edu
  links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
