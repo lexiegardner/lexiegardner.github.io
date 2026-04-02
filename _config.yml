@@ -5,7 +5,7 @@ url: "https://lexiegardner.github.io" # your GitHub Pages URL
 email: lexie.gardner@berkeley.edu
 repository: lexiegardner/lexiegardner.github.io  # Your GitHub repository
 
-remote_theme: "mmistakes/minimal-mistakes@4.1.0" # latest works now
+remote_theme: "mmistakes/minimal-mistakes@4.24.0" # latest works now
 minimal_mistakes_skin: "default"
 
 author:
