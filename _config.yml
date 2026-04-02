@@ -10,15 +10,11 @@ minimal_mistakes_skin: "default"
 
 author:
   name: "Lexie Gardner"
-  uri: "https://lexiegardner.github.io"
   avatar: "/assets/images/bio-photo.JPG"  
   bio: "PhD Student"
   location: "University of California, Berkeley"
   email: "lexie.gardner@berkeley.edu"
   links:
-    - label: "lexie.gardner@berkeley.edu"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:lexie.gardner@berkeley.edu"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=1bUVIDIAAAAJ&hl=en"
