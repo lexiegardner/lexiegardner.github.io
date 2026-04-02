@@ -10,12 +10,13 @@ minimal_mistakes_skin: "default"
 
 author:
   name: "Lexie Gardner"
+  uri: "https://lexiegardner.github.io"
   avatar: "/assets/images/bio-photo.JPG"  
   bio: "PhD Student"
   location: "University of California, Berkeley"
   email: "lexie.gardner@berkeley.edu"
   links:
-    - label: "Email"
+    - label: "lexie.gardner@berkeley.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:lexie.gardner@berkeley.edu"
     - label: "Google Scholar"
@@ -38,8 +39,12 @@ plugins:
 
 footer:
   links:
-    - title: "GitHub"
-      url: "https://github.com/lexiegardner/lexiegardner.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lexiegardner"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lexie.gardner@berkeley.edu"
 
 markdown: kramdown
 kramdown:
