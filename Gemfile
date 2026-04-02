@@ -1,13 +1,11 @@
 source "https://rubygems.org"
 
-# Use github-pages gem for compatibility with GitHub Pages
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.3"
+gem "minimal-mistakes-jekyll"
 
-# Plugins for Jekyll
-gem "jekyll-paginate"
-gem "jekyll-seo-tag"
-gem "jekyll-feed"
-gem "jekyll-sitemap"
-
-# The Minimal Mistakes theme - specify a compatible version (adjust the version if needed)
-gem "minimal-mistakes-jekyll", "~> 4.1"  # Use the version compatible with GitHub Pages
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-include-cache"
