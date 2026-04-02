@@ -9,5 +9,5 @@ gem "jekyll-seo-tag"
 gem "jekyll-feed"
 gem "jekyll-sitemap"
 
-# The Minimal Mistakes theme (make sure this is the version compatible with GitHub Pages)
-gem "minimal-mistakes-jekyll"
+# The Minimal Mistakes theme - specify a compatible version (adjust the version if needed)
+gem "minimal-mistakes-jekyll", "~> 4.0"  # Use the version compatible with GitHub Pages
