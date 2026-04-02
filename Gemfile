@@ -10,4 +10,4 @@ gem "jekyll-feed"
 gem "jekyll-sitemap"
 
 # The Minimal Mistakes theme - specify a compatible version (adjust the version if needed)
-gem "minimal-mistakes-jekyll", "~> 4.0"  # Use the version compatible with GitHub Pages
+gem "minimal-mistakes-jekyll", "~> 4.1"  # Use the version compatible with GitHub Pages
