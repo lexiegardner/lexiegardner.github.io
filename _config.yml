@@ -12,15 +12,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Research"
-    url: "/research/"
-  - title: "Publications"
-    url: "/publications/" 
-  - title: "CV" 
-    url: "/CV/"
+masthead_nav: main
 
 header_pages:
   - index.md
