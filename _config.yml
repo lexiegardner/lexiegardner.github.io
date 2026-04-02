@@ -5,7 +5,7 @@ url: "https://lexiegardner.github.io" # your GitHub Pages URL
 email: lexie.gardner@berkeley.edu
 repository: "https://github.com/lexiegardner/lexiegardner.github.io"
 
-theme: "mmistakes/minimal-mistakes@4.26.0" # latest works now
+remote_theme: "mmistakes/minimal-mistakes@4.1.0" # latest works now
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
